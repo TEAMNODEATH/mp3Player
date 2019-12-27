@@ -373,7 +373,7 @@ public class MainActivity extends FragmentActivity implements LoaderManager.Load
 
   public void openGitPage(View v) {
     try {
-      startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kardihaekal/Music-Player")));
+      startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kardihaekal/mp3Player")));
     } catch (ActivityNotFoundException e) {
       Toast.makeText(this, getString(R.string.no_browser), Toast.LENGTH_SHORT).show();
       e.printStackTrace();
